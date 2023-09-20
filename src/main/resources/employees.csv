@@ -1,0 +1,14 @@
+employeename,title,businessunit,place,supervisorid,competencies,salary
+GovindRajNaidu,VP,Koleri,Bangalore,RamaswamyNaidu,Java,1000
+Seena,Manager,SecondFloor,Jayanagar,GovindRajNaidu,Java,900
+Suri,Manager,GroundFloor,ChikalSandra,GovindRajNaidu,Java,700
+Satisha,Manager,FirstFloor,Jayanagar,GovindRajNaidu,Java,1000
+Sunil,Manager,FourthFloor,Jayanagar,GovindRajNaidu,Java,500
+Gundu,SSE,SecondFloor,US,Seena,Java,500
+Ajju,SE,SecondFloor,US,Seena,Java,100
+Appi,SE,GroundFloor,ChikalSandra,Suri,Java,100
+Vyshu,SSE,GroundFloor,ChikalSandra,Suri,Java,500
+Sarthak,SSE,FirstFloor,UK,Satisha,Java,800
+Gagan,SE,FirstFloor,Jayanagar,Satisha,Java,800
+Bullu,Doc,FourthFloor,Jayanagar,Sunil,Java,100
+Janu,IAS,FourthFloor,Jayanagar,Sunil,Java,500
