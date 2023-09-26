@@ -1,0 +1,16 @@
+apiVersion: v1
+kind: Service
+metadata:
+  creationTimestamp: null
+  labels:
+    app: employeemanagement
+  name: employeemanagementsvc
+spec:
+  ports:
+  - port: 8085
+    protocol: TCP
+    targetPort: 8085
+  selector:
+    app: employeemanagement
+status:
+  loadBalancer: {}

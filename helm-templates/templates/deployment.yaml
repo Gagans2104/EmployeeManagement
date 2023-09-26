@@ -1,0 +1,24 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  labels:
+    app: employeemanagement
+  name: employeemanagement
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: employeemanagement
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+      labels:
+        app: employeemanagement
+    spec:
+      containers:
+      - image: gagan2104/employeemanagement:4.0
+        name: employeemanagement
+        resources: {}
+status: {}

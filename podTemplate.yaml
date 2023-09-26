@@ -47,8 +47,8 @@ spec:
       #   limits:
       #     memory: "500Mi"
       #     cpu: "2"
-    - name: maven
-      image: maven:3.9.4-amazoncorretto-17
+    - name: gradle
+      image: gradle
       imagePullPolicy: Always
       ttyEnabled: true
       command:
