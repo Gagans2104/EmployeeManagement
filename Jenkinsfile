@@ -104,7 +104,8 @@ pipeline {
                             sh 'git add values.yaml'
                             sh 'git commit -am "Updated image version for Build - $VERSION"'
                             echo 'push started'
-                            sh "git push origin ${NAME}-${env.BUILD_ID}"
+//                             sh "git push origin ${NAME}-${env.BUILD_ID}"
+                            sh "git push origin main"
                         }
                         echo 'push complete'
                     }
