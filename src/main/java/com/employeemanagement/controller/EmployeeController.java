@@ -74,4 +74,13 @@ public class EmployeeController {
          return employeeService.getRangeOfSalaryByTitle(title);
     }
 
+    @GetMapping("/hi")
+     public String hi(){
+     return "Hi";
+    }
+
+    @GetMapping("/Bi")
+    public String Bi(){
+        return "Bi";
+    }
 }
